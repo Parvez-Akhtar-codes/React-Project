@@ -2,7 +2,7 @@
   "name": "mantis-free-react-admin-template",
   "version": "1.1.2",
   "private": true,
-  "homepage": "https://mantisdashboard.io/free",
+  "homepage": "https://mantisdashboard.io",
   "dependencies": {
     "@ant-design/colors": "^6.0.0",
     "@ant-design/icons": "^4.7.0",
@@ -16,10 +16,12 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
     "apexcharts": "^3.35.5",
+    "axios": "^1.6.2",
     "formik": "^2.2.9",
     "framer-motion": "^7.3.6",
     "history": "^5.3.0",
     "lodash": "^4.17.21",
+    "mantis-free-react-admin-template": "file:",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-apexcharts": "^1.4.0",
@@ -72,6 +74,7 @@
       "last 1 safari version"
     ]
   },
+  "proxy": "http://localhost:8080/api/v1",
   "devDependencies": {
     "@babel/core": "^7.21.4",
     "@babel/eslint-parser": "^7.21.3",

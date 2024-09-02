@@ -3,8 +3,17 @@ import { Typography } from '@mui/material';
 
 // project import
 import MainCard from 'components/MainCard';
+import fetchGetData from 'client/client';
 
-// ==============================|| SAMPLE PAGE ||============================== //
+const apiUrl = 'http://localhost:8080/api/v1';
+
+fetchGetData(apiUrl)
+.then(res => {
+  console.log('Data: ' , res.data);
+})
+.catch(error => {
+  console.error('Error in .then: ', error.message);
+});
 
 const SamplePage = () => (
   <MainCard title="Sample Card">
