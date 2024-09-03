@@ -1,5 +1,4 @@
 // project import
-
 import Navigation from './Navigation';
 import SimpleBar from 'components/third-party/SimpleBar';
 
@@ -15,7 +14,6 @@ const DrawerContent = () => (
     }}
   >
     <Navigation />
-   
   </SimpleBar>
 );
 

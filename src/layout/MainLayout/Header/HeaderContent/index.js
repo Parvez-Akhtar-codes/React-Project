@@ -1,9 +1,7 @@
 // material-ui
 import { useMediaQuery } from '@mui/material';
 
-
 // project import
-
 import MobileSection from './MobileSection';
 
 // ==============================|| HEADER - CONTENT ||============================== //
@@ -13,8 +11,6 @@ const HeaderContent = () => {
 
   return (
     <>
-      
-      
       {matchesXs && <MobileSection />}
     </>
   );

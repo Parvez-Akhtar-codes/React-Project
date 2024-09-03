@@ -1,3 +1,62 @@
+# Project Setup Guide
+
+In this guide, we'll walk through the steps to set up both the backend and frontend of our application. We'll cover essential tools and configurations required for smooth development.
+
+## Backend and Frontend Overview
+Our application consists of two main components:
+
+- **Backend:** Responsible for handling the business logic and data processing.
+
+- **Frontend:** Provides the user interface for interacting with the application.
+
+The backend is built using Spring Boot, while the frontend is built using React.
+
+
+### Prerequisites
+
+- **IDE:** We recommend using VS Code.
+
+- **Java 17:** Install OpenJDK 17. You can download it from [Microsoft Java 17](https://link-to-download).
+
+## Setting up the Backend
+Our backend is built using Spring Boot, a powerful framework for Java applications. Follow these steps to set it up:
+
+### Running the Application
+1. Open the project in VS Code.
+
+2. Navigate to the backend directory and open it in the terminal.
+
+3. Execute `code .` to open the project in VS Code.
+
+4. Run the application by selecting any Java file with a `main` method and clicking on the "Run" button.
+
+## Accessing the Backend
+Once the backend is up and running, you can explore its functionalities:
+
+Access the backend APIs at `localhost:8080/api/v1`
+
+**Swagger Documentation:** Visit [Swagger UI](https://localhost:8080/swagger-ui/index.html) to explore the API documentation.
+
+
+## Setting up the Frontend
+Our frontend is built using React, a popular JavaScript library for building user interfaces. Follow these steps to set it up:
+
+### Prerequisites
+- **Node.js:** Ensure Node.js is installed on your system.
+
+### Running the Application
+1. Open the project in VS Code.
+
+2. Navigate to the frontend directory and open it in the terminal.
+
+3. Run `npm install` to install dependencies.
+
+4. Once the installation is complete, start the frontend application by running: 
+
+`npm start`
+
+Access frontend at `http://localhost:3000`
+---
 # Mantis Free React Material UI Dashboard Template [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Download%20Mantis%20React%20-%20The%20professional%20Material%20designed%20React%20Admin%20Dashboard%20Template%20&url=https://mantisdashboard.io&via=codedthemes&hashtags=reactjs,webdev,developers,javascript)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

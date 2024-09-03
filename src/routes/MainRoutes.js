@@ -4,16 +4,15 @@ import { lazy } from 'react';
 import Loadable from 'components/Loadable';
 import MainLayout from 'layout/MainLayout';
 
-// render - dashboard
-
-
 // render - sample page
-const SamplePage = Loadable(lazy(() => import('pages/extra-pages/SamplePage')));
+const AlbumsPage = Loadable(lazy(() => import('pages/albums/albums')));
+const AboutPage = Loadable(lazy(() => import('pages/staticPages/about')));
+const AlbumAddPage = Loadable(lazy(() => import('pages/albums/albumAdd')));
+const AlbumShowPage = Loadable(lazy(() => import('pages/albums/albumShow')));
+const AlbumUploadPage = Loadable(lazy(() => import('pages/albums/albumUpload')));
+const AlbumEditPage = Loadable(lazy(() => import('pages/albums/albumEdit')));
+const PhotoEditPage = Loadable(lazy(() => import('pages/albums/PhotoEdit')));
 
-// render - utilities
-
-
-// ==============================|| MAIN ROUTING ||============================== //
 
 const MainRoutes = {
   path: '/',
@@ -21,9 +20,32 @@ const MainRoutes = {
   children: [
     {
       path: '/',
-      element: <SamplePage />
-    }
-   
+      element: <AlbumsPage />
+    },
+    {
+      path: '/album/add',
+      element: <AlbumAddPage />
+    },
+    {
+      path: '/about',
+      element: <AboutPage />
+    },
+    {
+      path: '/album/show',
+      element: <AlbumShowPage />
+    },
+    {
+      path: '/album/edit',
+      element: <AlbumEditPage />
+    },
+    {
+      path: '/photo/edit',
+      element: <PhotoEditPage />
+    },
+    {
+      path: '/album/upload',
+      element: <AlbumUploadPage />
+    },
   ]
 };
 

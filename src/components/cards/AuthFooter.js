@@ -46,11 +46,11 @@ const AuthFooter = () => {
             variant="subtitle2"
             color="secondary"
             component={Link}
-            href="https://codedthemes.support-hub.io/"
+            href="/about"
             target="_blank"
             underline="hover"
           >
-            Support
+            About
           </Typography>
         </Stack>
       </Stack>
